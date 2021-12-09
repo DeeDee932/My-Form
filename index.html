@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Department of Mechatronics Engineering</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="icon" type="image/jpg" sizes="225x225" href="./images/avatar.jpg">
+	</head>
+
+	<body>
+		<div class="navbar">
+				<a class="active" href="#">Home</a>
+				<a href="#">About</a>
+				<a href="#">Services</a>			
+				<a href="#">Contact</a>
+		</div>
+		
+		<h1 class="marquee"><span>Welcome to the Department of Mechatronics Engineering, FUNAAB!</span></h1>
+
+		<div class="login-box">
+			<form action="" name="myForm">
+				<h2>Login</h2>
+					<div class="textbox">
+						<i class="fa fa-user" aria-hidden="true"></i>
+						<input type="text" placeholder="Matric no" maxlength="8" name="matricNo" title="Numbers only, please." />
+					</div>			
+					&nbsp;
+					<div class="textbox">
+						<i class="fa fa-lock" aria-hidden="true"></i>
+						<input type="password" placeholder="Password" maxlength="7" name="password" />
+					</div>
+					
+					<p id="demo" style="color:red; text-align:center"></p>	
+					<input class="btn" type="button" value="Sign in" onclick="validateform()"/>
+			</form>
+		</div>
+
+		<footer id="main-footer">
+			<p><b>All rights reserved.</b></p>
+			<p><b>&copy; 2021 Department of Mechatronics Engineering, FUNAAB.</b></p>
+		</footer>
+
+		<script src="main.js"></script>
+	</body>
+</html>
